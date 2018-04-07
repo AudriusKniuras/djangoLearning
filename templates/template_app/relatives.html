@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Relative Templates</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <a href="{% url 'template_app:other' %}">The other page</a>
+    <hr>
+    <span>"admin" is app, "index" is view.</span>
+    <a href="{% url 'admin:index' %}">Admin page.</a>
+    <hr>
+    <span>link to index:</span>
+    <a href="{% url 'template_app:index' %}">Homepage</a>
+</body>
+
+</html>
